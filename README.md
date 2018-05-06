@@ -1,0 +1,2 @@
+# ExpandableTextView
+仿微信朋友圈全文、收起的TextView，可在RecyclerView和ListView中使用，不会有错乱和空白问题
