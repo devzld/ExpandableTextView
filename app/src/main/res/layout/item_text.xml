@@ -19,8 +19,8 @@
 
     <View
         android:layout_alignParentBottom="true"
-        android:background="#333333"
+        android:background="#dee4e7"
         android:layout_width="match_parent"
-        android:layout_height="1px"/>
+        android:layout_height="1dp"/>
 
 </RelativeLayout>
