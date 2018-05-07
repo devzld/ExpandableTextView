@@ -36,7 +36,7 @@
 	holder.expandLayout.setText(bean.text, bean.expand, object : ExpandLayout.OnExpandListener {
 	            override fun expandChange() {
 	                bean.expand = !bean.expand
-	                notifyItemChanged(holder.adapterPosition)
+	                notifyDataSetChanged()
 	            }
 	        })  
 
