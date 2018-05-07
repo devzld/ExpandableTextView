@@ -44,8 +44,16 @@
 
 ### 3、XML中配置的属性说明
 
-
-	
-
-
+xml中的属性 | 含义
+---|---
+maxCollapsedLines | 收起时内容最多显示的行数，默认是3行
+contentTextSize | 内容字体大小，默认18sp
+contentTextColor | 内容字体颜色
+expandText | 扩展时显示的文字，默认是“全文”
+collapseText | 隐藏时显示的文字，默认是“收起”
+expandCollapseTextSize | 提示文字的大小，默认是18sp
+expandCollapseTextColor | 提示文字的颜色
+expandCollapseTextGravity | 提示文字的位置，有left,right,center三种值，默认为left
+ellipsizeText | 超过最大行数时末尾显示的省略文字，默认是“...”
+middlePadding | 提示文字距离内容文字的高度，默认是0dp
 
